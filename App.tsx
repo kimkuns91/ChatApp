@@ -7,15 +7,22 @@
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import React from 'react';
+import React, { useCallback, useContext } from 'react';
 import {RootStackParamList} from './src/types';
 import SignupScreen from './src/SignupScreen/SignupScreen';
 import AuthProvider from './src/components/AuthProvider';
 import SigninScreen from './src/SigninScreen/SigninScreen';
+import AuthContext from './src/components/AuthContext';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const Screens = () => {
+  const { user, processingSignin, processingSignup } = useContext(AuthContext);
+  const renderRootStack = useCallback(()=>{
+    if(user!== null){
+
+    }
+  },[]);
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
