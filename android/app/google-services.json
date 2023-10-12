@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277780560760",
+    "project_id": "chatapp-88f1e",
+    "storage_bucket": "chatapp-88f1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277780560760:android:369b04c038732eea1f268d",
+        "android_client_info": {
+          "package_name": "com.kunwookim.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5z7n-SnF1oOr96k7b94W_OQ8V6ymRA1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
